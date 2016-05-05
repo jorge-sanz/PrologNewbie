@@ -16,8 +16,11 @@ Functions:
   teach(X, Y) -> X teaches Y
   belongTo(X, Y) -> X belongs to Y
 
-Question:
+Query:
   smart(_).
+
+Solution:
+  true.
 
 */
 
