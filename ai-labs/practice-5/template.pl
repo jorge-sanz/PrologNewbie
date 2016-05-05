@@ -12,6 +12,9 @@ Functions:
 Question:
   -- query --
 
+Solution:
+  -- solution --
+
 Write code bellow this
 
 */
