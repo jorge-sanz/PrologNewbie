@@ -11,6 +11,7 @@ One person is father of other one if this one is son of the first one.
 One person is grandfather of other one (for example: p) if he's the
 father of other one who is the father of p.
 Marcos is son of Jorge.
+Does it exist a blonde grandfather?
 
 Domain: People
 
