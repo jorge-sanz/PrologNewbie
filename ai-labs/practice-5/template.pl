@@ -9,7 +9,7 @@ Domain: -- domain --
 Functions:
   -- funcion -> explanation --
 
-Question:
+Query:
   -- query --
 
 Solution:
