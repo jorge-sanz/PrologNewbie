@@ -1,6 +1,7 @@
 /*
 
 Exercise 3:
+
 Marcos is blonde.
 Juan is brown.
 Pedro is Juan's father.
