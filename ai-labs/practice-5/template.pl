@@ -1,6 +1,6 @@
 /*
 
-Exercise 1:
+Exercise X:
 
 -- sentence --
 
