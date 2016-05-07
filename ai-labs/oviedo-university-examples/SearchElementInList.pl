@@ -1,6 +1,6 @@
 /*
 
-Search elements in a list.
+Search an element in a list.
 
 Query:
   ?- belongsTo(pedro, [juan, maria, pedro]).
