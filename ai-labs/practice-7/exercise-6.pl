@@ -1,7 +1,6 @@
 /*
 
 Exercise 6:
-
 A Prolog system saves information about different links between cities
 with the format:
 link(City1, City2, Distance)
