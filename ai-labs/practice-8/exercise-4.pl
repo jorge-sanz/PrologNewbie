@@ -23,4 +23,4 @@ remove(Item, [H|T], Result) :-  Item = H,
 
 remove(Item, [H|T], Result) :-  Item \= H,
                                 remove(Item, T, Result),
-                                Result = [H|T].
+                                Result = [H|Result].
