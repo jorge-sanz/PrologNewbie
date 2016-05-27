@@ -15,6 +15,13 @@ roadToAncestor(X, Y, Clicks) -> Y is an ancestor of X and Clicks will represents
 clicksTo(X, Y, Clicks) -> Clicks will represent the steps from X to Y, being
                           these ones any node in the tree.
 
+Queries:
+- If you want to know if a is father of b: fatherOf(a, b).
+- If you want to know if a is acestor of b: ancestorOf(a, b).
+- If you want to know the descendants of a: ancestorOf(a, X).
+- If you want to know the steps from a to mainPage: roadToMain(a, X).
+- If you want to know the steps from a to b: clicksTo(a, b, Clicks).
+
 */
 
 fatherOf(mainPage, training).
