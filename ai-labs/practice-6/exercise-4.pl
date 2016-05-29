@@ -14,7 +14,7 @@ false.
 C = one.
 
 (d) ?- f(D,three).
-D = s(s(1)) .
+D = s(s(1)).
 
 */
 
