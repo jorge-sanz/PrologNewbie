@@ -20,19 +20,19 @@ Functions:
   isAlive(X) -> X is alive
 
 Query:
-  like(juan, peanuts)
+  like(juan, peanuts).
 
 Solution:
-  false.
+  true.
 
 Write code bellow this
 
 */
 
-like(juan, food).
+like(juan, X) :- isKindOf(X, food).
 isKindOf(apple, food).
 isKindOf(chicken, food).
-isKindOf(X, food) :- not(kill(Y, X)), eat(Y, X).
+isKindOf(X, food) :- isAlive(Y), eat(Y, X).
 eat(guillermo, peanuts).
 isAlive(guillermo).
 eat(susana, X) :- eat(guillermo, X).
