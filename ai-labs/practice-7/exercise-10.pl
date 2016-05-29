@@ -46,7 +46,7 @@ ancestorOf(Grandfather, Grandson) :-  fatherOf(Grandfather, Father),
                                       ancestorOf(Father, Grandson).
 
 roadToMain(Start, StopsList) :- Start = mainPage,
-                                Y = [].
+                                StopsList = [].
 roadToMain(Start, StopsList) :- fatherOf(Father, Start),
                                 roadToMain(Father, PartOfStopsList),
                                 StopsList = [Father|PartOfStopsList].
