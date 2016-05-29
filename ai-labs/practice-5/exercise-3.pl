@@ -23,9 +23,10 @@ Functions:
   grandfatherOf -> X is grandfather of Y
 
 Query:
-  isBlonde(_), grandfatherOf(_, _)
+  isBlonde(X), grandfatherOf(X, _)
 
 Solution:
+  X = marcos
   true.
 
 Write code bellow this
