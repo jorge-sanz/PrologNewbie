@@ -27,5 +27,5 @@ Solution:
 smart(X) :- teach(X, Y), belongTo(Y, computerScience).
 teach(juan, algorithmics).
 teach(juanWife, artificialIntelligence).
-belongTo(algorithmics, computerScience).
+belongTo(algorithmics, maths).
 belongTo(artificialIntelligence, computerScience).
