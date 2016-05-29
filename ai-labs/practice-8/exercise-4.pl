@@ -12,15 +12,13 @@ false.
 
 */
 
-remove(Item, [], Result) :- Result = [].
-
 remove(Item, [H|T], Result) :-  Item = H,
                                 Result = T.
 
 remove(Item, [H|T], Result) :-  Item = H,
-                                remove(Item, T, Result),
-                                Result = [H|Result].
+                                remove(Item, T, SecondaryResult),
+                                Result = [H|SecondaryResult].
 
 remove(Item, [H|T], Result) :-  Item \= H,
-                                remove(Item, T, Result),
-                                Result = [H|Result].
+                                remove(Item, T, SecondaryResult),
+                                Result = [H|SecondaryResult].
