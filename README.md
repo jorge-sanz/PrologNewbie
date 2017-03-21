@@ -3,7 +3,7 @@ My first steps with Prolog.
 
 - AI Laboratories - folder with Prolog exercises for AI subject at college.
 
-## Tools
+## Tools
 - [SWI-Prolog](http://www.swi-prolog.org/)
 
 ## Recommendations
